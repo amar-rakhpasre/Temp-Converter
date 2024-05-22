@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>degrees.com</title>
+    <link rel="stylesheet" href="fun.css">
+    <link rel="icon" href="High_temperature_warning_symbol.png">
+</head>
+<body>
+    <form>
+        <h1>Temperature Conversion:</h1>
+        <input type="number" id="userText" value="0"><br>
+
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit">Celsius ➡️ Fahrenheit</label><br><br>
+
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius" class="A">Fahrenheit ➡️ Celsius</label><br>
+        
+        <button id="btn" type="button" onclick="Convert()">Submit</button>
+        <p id="Result"></p>
+        <p class="bg"></p>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
